@@ -1,0 +1,96 @@
+CHARSET="ANSI";
+AXIS-VERSION="2013";
+CODEPAGE="windows-1250";
+LANGUAGE="sl";
+LANGUAGES="sl","en";
+CREATION-DATE="20040930 00:00";
+NEXT-UPDATE="20250515 10:30";
+DECIMALS=4;
+SHOWDECIMALS=3;
+MATRIX="1822303S";
+SUBJECT-CODE="18223";
+SUBJECT-AREA="ENERGETIKA";
+SUBJECT-AREA[en]="ENERGY";
+COPYRIGHT=YES;
+DESCRIPTION="Poraba obnovljivih virov energije in odpadkov (TJ), Slovenija, letno";
+DESCRIPTION[en]="Renewable energy and waste use (TJ), Slovenia, annually";
+TITLE="Poraba obnovljivih virov energije in odpadkov (TJ) po: ENERGETSKI VIR, LETO, VRSTA RABE";
+TITLE[en]="Renewable energy and waste use (TJ) by ENERGY SOURCE, YEAR and TYPE OF USE";
+CONTENTS="Poraba obnovljivih virov energije in odpadkov (TJ)";
+CONTENTS[en]="Renewable energy and waste use (TJ)";
+UNITS="TJ";
+UNITS[en]="TJ";
+STUB="ENERGETSKI VIR";
+STUB[en]="ENERGY SOURCE";
+HEADING="LETO","VRSTA RABE";
+HEADING[en]="YEAR","TYPE OF USE";
+VALUES("ENERGETSKI VIR")="Geotermalna in toplota iz okolice (TJ)","Solarna termièna (TJ)",
+"Sonèna energija (fotovoltaika) (TJ)","Vetrna energija (TJ)",
+"Industrijski odpadki - obnovljivi (TJ)","Industrijski odpadki - neobnovljivi (TJ)",
+"Komunalni odpadki - obnovljivi (TJ)","Komunalni odpadki - neobnovljivi (TJ)",
+"Les in druga trdna biomasa (TJ)","Deponijski plin (TJ)","Plin iz èistilnih naprav (TJ)",
+"Drugi bioplini (TJ)","Biodizel (TJ)","Biobencin (TJ)";
+VALUES[en]("ENERGY SOURCE")="Geothermal and ambient heat (TJ)","Solar thermal (TJ)",
+"Solar photovoltaic (TJ)","Wind (TJ)","Industrial wastes - renewables (TJ)",
+"Industrial wastes - non-renewables (TJ)","Municipal Solid Waste - renewables (TJ)",
+"Municipal Solid Waste - non-renewables (TJ)","Wood/Wood wastes/Other Solid Wastes (TJ)",
+"Landfill gas (TJ)","Sewage sludge gas (TJ)","Other Biogas (TJ)","Biodiesel (TJ)","Biogasoline (TJ)";
+VALUES("LETO")="2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013",
+"2014","2015","2016","2017","2018","2019","2020","2021","2022","2023";
+VALUES[en]("YEAR")="2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012",
+"2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023";
+VALUES("VRSTA RABE")="Transformacija","Konèna raba","Skupaj";
+VALUES[en]("TYPE OF USE")="Transformation","End use","Total";
+TIMEVAL("LETO")=TLIST(A1),"2002","2003","2004","2005","2006","2007","2008","2009","2010","2011",
+"2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023";
+TIMEVAL[en]("YEAR")=TLIST(A1),"2002","2003","2004","2005","2006","2007","2008","2009","2010","2011",
+"2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023";
+CODES("ENERGETSKI VIR")="01","02","14","15","13","03","04","05","06","08","09","10","11","12";
+CODES[en]("ENERGY SOURCE")="01","02","14","15","13","03","04","05","06","08","09","10","11","12";
+CODES("LETO")="2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013",
+"2014","2015","2016","2017","2018","2019","2020","2021","2022","2023";
+CODES[en]("YEAR")="2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012",
+"2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023";
+CODES("VRSTA RABE")="01","02","03";
+CODES[en]("TYPE OF USE")="01","02","03";
+LAST-UPDATED="20241105 10:30";
+CONTACT="Statistièni urad RS, T: (01) 241 64 04, E: gp.surs@gov.si";
+CONTACT[en]="Statistical Office of the Republic of Slovenia, T: +386 1 241 64 04, E: gp.surs@gov.si";
+DATABASE="SI-STAT";
+DATABASE[en]="SI-STAT";
+SOURCE="Statistièni urad Republike Slovenije";
+SOURCE[en]="Statistical Office of the Republic of Slovenia";
+NOTE="Povezane vsebine: #- <A class=seznam HREF=http://www.stat.si/StatWeb/Common/PrikaziDokument.ashx?IdDatoteke=8167 target=_blank>Metodološka pojasnila</A>";
+NOTE[en]="Linked content:# - <A class=seznam HREF= http://www.stat.si/StatWeb/Common/PrikaziDokument.ashx?IdDatoteke=8345 target=_blank>Methodological explanations</A>";
+VALUENOTEX("ENERGETSKI VIR","Geotermalna in toplota iz okolice (TJ)")="Toplota iz okolice vkljuèuje aerotermalno, hidrotermalno ali geotermalno energijo, ki se izkorišèa s pomoèjo toplotnih èrpalk, ne vkljuèuje pa energije, ki se uporablja za pogon "
+"toplotnih èrpalk (elektrika ipd.).";
+VALUENOTEX[en]("ENERGY SOURCE","Geothermal and ambient heat (TJ)")="Ambient heat includes aerothermal, hydrothermal or geothermal energy captured by heat pumps from the environment; energy used to drive heat pumps (electricity etc.) is not included.";
+CELLNOTEX("Sonèna energija (fotovoltaika) (TJ)","2023","Transformacija")="Zdaj objavljeni podatki o sonèni energiji (fotovoltaika) so v primerjavi s tistimi, ki so bili objavljeni 8. 10. 2024 popravljeni. Prvotno objavljena vrednost tega podatka je bila 3319,661 TJ. Za spremembo se opravièujemo in prosimo za razumevanje.";
+CELLNOTEX[en]("Solar photovoltaic (TJ)","2023","Transformation")="Data for solar photovoltaic have been corrected compared to the release of 8. 10. 2024. The previously published value was 3319,661 TJ. We apologise for any inconvenience.";
+CELLNOTEX("Sonèna energija (fotovoltaika) (TJ)","2023","Skupaj")="Zdaj objavljeni podatki o sonèni energiji (fotovoltaika) so v primerjavi s tistimi, ki so bili objavljeni 8. 10. 2024 popravljeni. Prvotno objavljena vrednost tega podatka je bila 3319,661 TJ. Za spremembo se opravièujemo in prosimo za razumevanje.";
+CELLNOTEX[en]("Solar photovoltaic (TJ)","2023","Total")="Data for solar photovoltaic have been corrected compared to the release of 8. 10. 2024. The previously published value was 3319,661 TJ. We apologise for any inconvenience.";
+CELLNOTEX("Vetrna energija (TJ)","2023","Transformacija")="Zdaj objavljeni podatki o vetrni energiji so v primerjavi s tistimi, ki so bili objavljeni 8. 10. 2024 popravljeni. Prvotno objavljena vrednost tega podatka je bila 23,126 TJ. Za spremembo se opravièujemo in prosimo za razumevanje.";
+CELLNOTEX[en]("Wind (TJ)","2023","Transformation")="Data for wind have been corrected compared to the release of 8. 10. 2024. The previously published value was 23,126 TJ. We apologise for any inconvenience.";
+CELLNOTEX("Vetrna energija (TJ)","2023","Skupaj")="Zdaj objavljeni podatki o vetrni energiji so v primerjavi s tistimi, ki so bili objavljeni 8. 10. 2024 popravljeni. Prvotno objavljena vrednost tega podatka je bila 23,126 TJ. Za spremembo se opravièujemo in prosimo za razumevanje.";
+CELLNOTEX[en]("Wind (TJ)","2023","Total")="Data for wind have been corrected compared to the release of 8. 10. 2024. The previously published value was 23,126 TJ. We apologise for any inconvenience.";
+DATASYMBOL1="N";
+DATASYMBOL1[en]="N";
+DATASYMBOL2="-";
+DATASYMBOL2[en]="-";
+DATASYMBOL4="z";
+DATASYMBOL4[en]="z";
+DATA=
+".." 33.353 33.353 ".." 45.069 45.069 ".." 67.003 67.003 ".." 99.717 99.717 ".." 129.276 129.276 ".." 164.069 164.069 ".." 223.56 223.56 ".." 280.75 280.75 83 1095.532 1178.532 72 1178.047 1250.047 84 1217.887 1301.887 78 1376.569 1454.569 62 1463.118 1525.118 65 1622.797 1687.797 46 1919.788 1965.788 45.094 2098.467 2143.561 39.083 2119.467 2158.55 38.83 2292.582 2331.412 37.998 2322.754 2360.752 42.96 2673.987 2716.947 42.23 2835.556 2877.786 35.631 2945.164 2980.795 
+".." 200.49 200.49 ".." 196.375 196.375 ".." 196.34 196.34 ".." 205.966 205.966 ".." 220.577 220.577 ".." 242.982 242.982 ".." 259.425 259.425 ".." 321.404 321.404 ".." 344.555 344.555 ".." 372.564 372.564 ".." 410.007 410.007 ".." 425.71 425.71 ".." 428.41 428.41 ".." 434.036 434.036 ".." 439.37 439.37 ".." 440.842 440.842 ".." 442.148 442.148 ".." 443.754 443.754 ".." 396.853 396.853 ".." 349.933 349.933 ".." 301.787 301.787 ".." 252.378 252.378 
+".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." 774.23 ".." 774.23 924.548 ".." 924.548 987.235 ".." 987.235 962.899 ".." 962.899 1021.921 ".." 1021.921 917.86 ".." 917.86 1090.94 ".." 1090.94 1325.506 ".." 1325.506 1631.21 ".." 1631.21 2324.1132 ".." 2324.1132 3543.6924 ".." 3543.6924 
+".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." 3.6 ".." 3.6 15.196 ".." 15.196 15.12 ".." 15.12 21.701 ".." 21.701 20.801 ".." 20.801 20.578 ".." 20.578 21.676 ".." 21.676 22.14 ".." 22.14 22.504 ".." 22.504 20.135 ".." 20.135 20.632 ".." 20.632 22.939 ".." 22.939 
+".." ".." ".." ".." 31.7 31.7 ".." 59.585 59.585 ".." 93.529 93.529 ".." 119.273 119.273 ".." 85.128 85.128 ".." 218.386 218.386 ".." 153.782 153.782 ".." 196.116 196.116 ".." 225.885 225.885 ".." 354.261 354.261 ".." 383.941 383.941 ".." 433.237 433.237 ".." 228.076 228.076 ".." 184.627 184.627 ".." 125.177 125.177 ".." 120.542 120.542 ".." 81.944 81.944 ".." 87.309 87.309 ".." 100.214 100.214 ".." 135.204 135.204 ".." 109.51 109.51 
+3 ".." 3 39 196.3 235.3 26 349.186 374.694 25.674 423.288 448.962 19.14 529.304 548.444 22.818 427.224 450.042 16.8 372.814 389.614 23.883 650.424 674.307 21.236 757.425 778.661 263.65 738.621 1002.275 315.72 662.882 978.603 310.4 759.004 1069.403 320.78 1054.775 1375.557 330.32 1243.472 1573.789 356.93 1334.903 1691.828 374.627 1639.096 2013.723 409.265 1999.939 2409.204 363.796 2233.41 2597.206 410.37 1984.363 2394.733 410.046 1881.511 2291.557 407.659 1845.667 2253.326 410.264 1940.299 2350.563 
+".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." 
+".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." 
+1237 21398 22635 1324 23827 25151 1450 23397 24847 1311 28026 29337 1242 24517 25759 978 27250 28228 2917 26224 29141 1854.722 24962.549 26817.271 1795.457 25675.235 27470.692 1914.041 25335.879 27249.92 1796.073 24235.656 26031.729 1877.632 25430.314 27307.946 1754.888 22398.473 24153.361 2187.104 25089.086 27276.19 2180.517 25264.256 27444.773 2517.437 24307.461 26824.898 2408.468 21746.433 24154.901 2798.085 20806.806 23604.891 2798.294 20176.707 22975.001 2966.526 22704.613 25671.139 3125.131 19571.284 22696.415 3103.129 18890.991 21994.12 
+145 36 181 186 35 221 200 41 241 211 42 253 236 52 288 256 61 317 279 65 344 285 64 349 263 61 324 239 59 298 228 59 287 235 62 297 215 57 272 167 44 211 120 33 153 60.048 18.72 78.768 60.667 21.086 81.753 49.13 15.632 64.762 45.9 14.202 60.102 31.662 23.688 55.35 29.894 25.794 55.688 20.643 23.206 43.849 
+13 20 33 7 13 20 13 24 37 12 19 31 19 28 47 13 12 25 70 60 130 110 16 126 82 35 117 83 30 113 103 27 130 97 20 117 94 15 109 82 20 102 72 20 92 71.63 15.131 86.761 59.329 24.093 83.422 26.607 21.844 48.451 26.675 22.299 48.974 29.766 22.267 52.033 29.496 21.962 51.458 26.836 20.02 46.856 
+".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." 10 8 18 81 77 158 57 58 115 455 7 462 821 11 832 1083 12 1095 1166 14 1180 1026 14 1040 894 15 909 915 15 930 1003 15 1018 892.594 18.348 910.942 836.762 16.236 852.998 799.093 17.375 816.468 929.235 90.427 1019.662 869.221 67.664 936.885 831.751 86.452 918.203 757.524 111.946 869.47 
+".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." 545 545 ".." 932 932 ".." 1169 1169 ".." 1752 1752 ".." 1312 1312 ".." 1919 1919 9 2201 2210 36 1528 1564 38 975 1013 28 606 634 44.773 871.646 916.419 58.115 2762.474 2820.589 48.33 3803.211 3851.541 66.374 3569.075 3635.449 51.717 3964.986 4016.703 60.298 3052.9 3113.198 59.978 3610.943 3670.921 
+".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." ".." 33 33 ".." 99 99 ".." 104 104 ".." 163 163 ".." 206 206 ".." 258 258 ".." 306 306 ".." 329 329 ".." 277 277 ".." 178 178 ".." 176.958 176.958 ".." 326.382 326.382 ".." 177.42 177.42 ".." 336.722 336.722 ".." 359.327 359.327 ".." 270.094 270.094 ".." 358.625 358.625; 

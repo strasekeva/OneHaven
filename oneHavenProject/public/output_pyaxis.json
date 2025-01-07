@@ -1,0 +1,6156 @@
+{
+    "metadata": {
+        "CHARSET": [
+            "ANSI"
+        ],
+        "AXIS-VERSION": [
+            "2013"
+        ],
+        "CODEPAGE": [
+            "windows-1250"
+        ],
+        "LANGUAGE": [
+            "sl"
+        ],
+        "LANGUAGES": [
+            "sl",
+            "en"
+        ],
+        "CREATION-DATE": [
+            "20040930 00:00"
+        ],
+        "NEXT-UPDATE": [
+            "20250515 10:30"
+        ],
+        "DECIMALS": "4",
+        "SHOWDECIMALS": "3",
+        "MATRIX": [
+            "1822303S"
+        ],
+        "SUBJECT-CODE": [
+            "18223"
+        ],
+        "SUBJECT-AREA": [
+            "ENERGETIKA"
+        ],
+        "COPYRIGHT": "YES",
+        "DESCRIPTION": [
+            "Poraba obnovljivih virov energije in odpadkov (TJ), Slovenija, letno"
+        ],
+        "TITLE": [
+            "Poraba obnovljivih virov energije in odpadkov (TJ) po: ENERGETSKI VIR, LETO, VRSTA RABE"
+        ],
+        "CONTENTS": [
+            "Poraba obnovljivih virov energije in odpadkov (TJ)"
+        ],
+        "UNITS": [
+            "TJ"
+        ],
+        "STUB": [
+            "ENERGETSKI VIR"
+        ],
+        "HEADING": [
+            "LETO",
+            "VRSTA RABE"
+        ],
+        "VALUES(ENERGETSKI VIR)": [
+            "Geotermalna in toplota iz okolice (TJ)",
+            "Solarna termična (TJ)",
+            "Sončna energija (fotovoltaika) (TJ)",
+            "Vetrna energija (TJ)",
+            "Industrijski odpadki - obnovljivi (TJ)",
+            "Industrijski odpadki - neobnovljivi (TJ)",
+            "Komunalni odpadki - obnovljivi (TJ)",
+            "Komunalni odpadki - neobnovljivi (TJ)",
+            "Les in druga trdna biomasa (TJ)",
+            "Deponijski plin (TJ)",
+            "Plin iz čistilnih naprav (TJ)",
+            "Drugi bioplini (TJ)",
+            "Biodizel (TJ)",
+            "Biobencin (TJ)"
+        ],
+        "VALUES(LETO)": [
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019",
+            "2020",
+            "2021",
+            "2022",
+            "2023"
+        ],
+        "VALUES(VRSTA RABE)": [
+            "Transformacija",
+            "Končna raba",
+            "Skupaj"
+        ],
+        "TIMEVAL(LETO)": [
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019",
+            "2020",
+            "2021",
+            "2022",
+            "2023"
+        ],
+        "CODES(ENERGETSKI VIR)": [
+            "01",
+            "02",
+            "14",
+            "15",
+            "13",
+            "03",
+            "04",
+            "05",
+            "06",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12"
+        ],
+        "CODES(LETO)": [
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019",
+            "2020",
+            "2021",
+            "2022",
+            "2023"
+        ],
+        "CODES(VRSTA RABE)": [
+            "01",
+            "02",
+            "03"
+        ],
+        "LAST-UPDATED": [
+            "20241105 10:30"
+        ],
+        "CONTACT": [
+            "Statistični urad RS, T: (01) 241 64 04, E: gp.surs@gov.si"
+        ],
+        "DATABASE": [
+            "SI-STAT"
+        ],
+        "SOURCE": [
+            "Statistični urad Republike Slovenije"
+        ],
+        "NOTE": [
+            "Povezane vsebine: #- <A class=seznam HREF=http://www.stat.si/StatWeb/Common/PrikaziDokument.ashx?IdDatoteke=8167 target=_blank>Metodološka pojasnila</A>"
+        ],
+        "VALUENOTEX(ENERGETSKI VIR,Geotermalna in toplota iz okolice (TJ))": [
+            "Toplota iz okolice vključuje aerotermalno, hidrotermalno ali geotermalno energijo, ki se izkorišča s pomočjo toplotnih črpalk, ne vključuje pa energije, ki se uporablja za pogon",
+            "toplotnih črpalk (elektrika ipd.)."
+        ],
+        "CELLNOTEX(Sončna energija (fotovoltaika) (TJ),2023,Transformacija)": [
+            "Zdaj objavljeni podatki o sončni energiji (fotovoltaika) so v primerjavi s tistimi, ki so bili objavljeni 8. 10. 2024 popravljeni. Prvotno objavljena vrednost tega podatka je bila 3319,661 TJ. Za spremembo se opravičujemo in prosimo za razumevanje."
+        ],
+        "CELLNOTEX(Sončna energija (fotovoltaika) (TJ),2023,Skupaj)": [
+            "Zdaj objavljeni podatki o sončni energiji (fotovoltaika) so v primerjavi s tistimi, ki so bili objavljeni 8. 10. 2024 popravljeni. Prvotno objavljena vrednost tega podatka je bila 3319,661 TJ. Za spremembo se opravičujemo in prosimo za razumevanje."
+        ],
+        "CELLNOTEX(Vetrna energija (TJ),2023,Transformacija)": [
+            "Zdaj objavljeni podatki o vetrni energiji so v primerjavi s tistimi, ki so bili objavljeni 8. 10. 2024 popravljeni. Prvotno objavljena vrednost tega podatka je bila 23,126 TJ. Za spremembo se opravičujemo in prosimo za razumevanje."
+        ],
+        "CELLNOTEX(Vetrna energija (TJ),2023,Skupaj)": [
+            "Zdaj objavljeni podatki o vetrni energiji so v primerjavi s tistimi, ki so bili objavljeni 8. 10. 2024 popravljeni. Prvotno objavljena vrednost tega podatka je bila 23,126 TJ. Za spremembo se opravičujemo in prosimo za razumevanje."
+        ],
+        "DATASYMBOL1": [
+            "N"
+        ],
+        "DATASYMBOL2": [
+            "-"
+        ],
+        "DATASYMBOL4": [
+            "z"
+        ]
+    },
+    "data": [
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "33.353"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "33.353"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "45.069"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "45.069"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "67.003"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "67.003"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "99.717"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "99.717"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "129.276"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "129.276"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "164.069"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "164.069"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "223.56"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "223.56"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "280.75"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "280.75"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "83"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1095.532"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1178.532"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "72"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1178.047"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1250.047"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "84"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1217.887"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1301.887"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "78"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1376.569"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1454.569"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "62"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1463.118"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1525.118"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "65"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1622.797"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1687.797"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "46"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1919.788"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1965.788"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "45.094"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "2098.467"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "2143.561"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "39.083"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "2119.467"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "2158.55"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "38.83"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "2292.582"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "2331.412"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "37.998"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "2322.754"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "2360.752"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "42.96"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "2673.987"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "2716.947"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "42.23"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "2835.556"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "2877.786"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "35.631"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "2945.164"
+        },
+        {
+            "ENERGETSKI VIR": "Geotermalna in toplota iz okolice (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "2980.795"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "200.49"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "200.49"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "196.375"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "196.375"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "196.34"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "196.34"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "205.966"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "205.966"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "220.577"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "220.577"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "242.982"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "242.982"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "259.425"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "259.425"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "321.404"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "321.404"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "344.555"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "344.555"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "372.564"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "372.564"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "410.007"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "410.007"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "425.71"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "425.71"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "428.41"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "428.41"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "434.036"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "434.036"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "439.37"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "439.37"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "440.842"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "440.842"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "442.148"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "442.148"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "443.754"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "443.754"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "396.853"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "396.853"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "349.933"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "349.933"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "301.787"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "301.787"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "252.378"
+        },
+        {
+            "ENERGETSKI VIR": "Solarna termična (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "252.378"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "774.23"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "774.23"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "924.548"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "924.548"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "987.235"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "987.235"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "962.899"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "962.899"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1021.921"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1021.921"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "917.86"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "917.86"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1090.94"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1090.94"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1325.506"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1325.506"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1631.21"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1631.21"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "2324.1132"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "2324.1132"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "3543.6924"
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Sončna energija (fotovoltaika) (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "3543.6924"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "3.6"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "3.6"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "15.196"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "15.196"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "15.12"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "15.12"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "21.701"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "21.701"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "20.801"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "20.801"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "20.578"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "20.578"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "21.676"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "21.676"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "22.14"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "22.14"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "22.504"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "22.504"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "20.135"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "20.135"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "20.632"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "20.632"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "22.939"
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Vetrna energija (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "22.939"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "31.7"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "31.7"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "59.585"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "59.585"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "93.529"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "93.529"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "119.273"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "119.273"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "85.128"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "85.128"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "218.386"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "218.386"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "153.782"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "153.782"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "196.116"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "196.116"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "225.885"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "225.885"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "354.261"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "354.261"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "383.941"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "383.941"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "433.237"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "433.237"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "228.076"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "228.076"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "184.627"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "184.627"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "125.177"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "125.177"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "120.542"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "120.542"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "81.944"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "81.944"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "87.309"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "87.309"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "100.214"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "100.214"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "135.204"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "135.204"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "109.51"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - obnovljivi (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "109.51"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "3"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "3"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "39"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "196.3"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "235.3"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "26"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "349.186"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "374.694"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "25.674"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "423.288"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "448.962"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "19.14"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "529.304"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "548.444"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "22.818"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "427.224"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "450.042"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "16.8"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "372.814"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "389.614"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "23.883"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "650.424"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "674.307"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "21.236"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "757.425"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "778.661"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "263.65"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "738.621"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1002.275"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "315.72"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "662.882"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "978.603"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "310.4"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "759.004"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1069.403"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "320.78"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1054.775"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1375.557"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "330.32"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1243.472"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1573.789"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "356.93"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1334.903"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1691.828"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "374.627"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1639.096"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "2013.723"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "409.265"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1999.939"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "2409.204"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "363.796"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "2233.41"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "2597.206"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "410.37"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1984.363"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "2394.733"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "410.046"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1881.511"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "2291.557"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "407.659"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1845.667"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "2253.326"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "410.264"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1940.299"
+        },
+        {
+            "ENERGETSKI VIR": "Industrijski odpadki - neobnovljivi (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "2350.563"
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - obnovljivi (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Komunalni odpadki - neobnovljivi (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1237"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "21398"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "22635"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1324"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "23827"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "25151"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1450"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "23397"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "24847"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1311"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "28026"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "29337"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1242"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "24517"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "25759"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "978"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "27250"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "28228"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "2917"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "26224"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "29141"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1854.722"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "24962.549"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "26817.271"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1795.457"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "25675.235"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "27470.692"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1914.041"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "25335.879"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "27249.92"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1796.073"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "24235.656"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "26031.729"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1877.632"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "25430.314"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "27307.946"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1754.888"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "22398.473"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "24153.361"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "2187.104"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "25089.086"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "27276.19"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "2180.517"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "25264.256"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "27444.773"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "2517.437"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "24307.461"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "26824.898"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "2408.468"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "21746.433"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "24154.901"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "2798.085"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "20806.806"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "23604.891"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "2798.294"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "20176.707"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "22975.001"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "2966.526"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "22704.613"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "25671.139"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "3125.131"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "19571.284"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "22696.415"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "3103.129"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "18890.991"
+        },
+        {
+            "ENERGETSKI VIR": "Les in druga trdna biomasa (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "21994.12"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "145"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "36"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "181"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "186"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "35"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "221"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "200"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "41"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "241"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "211"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "42"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "253"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "236"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "52"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "288"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "256"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "61"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "317"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "279"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "65"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "344"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "285"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "64"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "349"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "263"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "61"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "324"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "239"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "59"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "298"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "228"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "59"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "287"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "235"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "62"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "297"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "215"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "57"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "272"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "167"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "44"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "211"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "120"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "33"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "153"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "60.048"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "18.72"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "78.768"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "60.667"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "21.086"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "81.753"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "49.13"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "15.632"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "64.762"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "45.9"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "14.202"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "60.102"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "31.662"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "23.688"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "55.35"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "29.894"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "25.794"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "55.688"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "20.643"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "23.206"
+        },
+        {
+            "ENERGETSKI VIR": "Deponijski plin (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "43.849"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "13"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "20"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "33"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "7"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "13"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "20"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "13"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "24"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "37"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "12"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "19"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "31"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "19"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "28"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "47"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "13"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "12"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "25"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "70"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "60"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "130"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "110"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "16"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "126"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "82"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "35"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "117"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "83"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "30"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "113"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "103"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "27"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "130"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "97"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "20"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "117"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "94"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "15"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "109"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "82"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "20"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "102"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "72"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "20"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "92"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "71.63"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "15.131"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "86.761"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "59.329"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "24.093"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "83.422"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "26.607"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "21.844"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "48.451"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "26.675"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "22.299"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "48.974"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "29.766"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "22.267"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "52.033"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "29.496"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "21.962"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "51.458"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "26.836"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "20.02"
+        },
+        {
+            "ENERGETSKI VIR": "Plin iz čistilnih naprav (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "46.856"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "10"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "8"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "18"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "81"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "77"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "158"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "57"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "58"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "115"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "455"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "7"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "462"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "821"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "11"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "832"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1083"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "12"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1095"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1166"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "14"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1180"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1026"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "14"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1040"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "894"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "15"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "909"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "915"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "15"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "930"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "1003"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "15"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1018"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "892.594"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "18.348"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "910.942"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "836.762"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "16.236"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "852.998"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "799.093"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "17.375"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "816.468"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "929.235"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "90.427"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1019.662"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "869.221"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "67.664"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "936.885"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "831.751"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "86.452"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "918.203"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "757.524"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "111.946"
+        },
+        {
+            "ENERGETSKI VIR": "Drugi bioplini (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "869.47"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "545"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "545"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "932"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "932"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1169"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1169"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1752"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1752"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1312"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1312"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1919"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1919"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "9"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "2201"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "2210"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "36"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "1528"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1564"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "38"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "975"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "1013"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "28"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "606"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "634"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "44.773"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "871.646"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "916.419"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "58.115"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "2762.474"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "2820.589"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "48.33"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "3803.211"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "3851.541"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "66.374"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "3569.075"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "3635.449"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "51.717"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "3964.986"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "4016.703"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "60.298"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "3052.9"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "3113.198"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Transformacija",
+            "DATA": "59.978"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "3610.943"
+        },
+        {
+            "ENERGETSKI VIR": "Biodizel (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "3670.921"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2002",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2003",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2004",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2005",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Končna raba",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2006",
+            "VRSTA RABE": "Skupaj",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "33"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2007",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "33"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "99"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2008",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "99"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "104"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2009",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "104"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "163"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2010",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "163"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "206"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2011",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "206"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "258"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2012",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "258"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "306"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2013",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "306"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "329"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2014",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "329"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "277"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2015",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "277"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "178"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2016",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "178"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "176.958"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2017",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "176.958"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "326.382"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2018",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "326.382"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "177.42"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2019",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "177.42"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "336.722"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2020",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "336.722"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "359.327"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2021",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "359.327"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "270.094"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2022",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "270.094"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Transformacija",
+            "DATA": null
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Končna raba",
+            "DATA": "358.625"
+        },
+        {
+            "ENERGETSKI VIR": "Biobencin (TJ)",
+            "LETO": "2023",
+            "VRSTA RABE": "Skupaj",
+            "DATA": "358.625"
+        }
+    ],
+    "translations": {
+        "SUBJECT-AREA": {
+            "sl": [
+                "ENERGETIKA"
+            ],
+            "en": [
+                "ENERGY"
+            ]
+        },
+        "DESCRIPTION": {
+            "sl": [
+                "Poraba obnovljivih virov energije in odpadkov (TJ), Slovenija, letno"
+            ],
+            "en": [
+                "Renewable energy and waste use (TJ), Slovenia, annually"
+            ]
+        },
+        "TITLE": {
+            "sl": [
+                "Poraba obnovljivih virov energije in odpadkov (TJ) po: ENERGETSKI VIR, LETO, VRSTA RABE"
+            ],
+            "en": [
+                "Renewable energy and waste use (TJ) by ENERGY SOURCE, YEAR and TYPE OF USE"
+            ]
+        },
+        "CONTENTS": {
+            "sl": [
+                "Poraba obnovljivih virov energije in odpadkov (TJ)"
+            ],
+            "en": [
+                "Renewable energy and waste use (TJ)"
+            ]
+        },
+        "UNITS": {
+            "sl": [
+                "TJ"
+            ],
+            "en": [
+                "TJ"
+            ]
+        },
+        "STUB": {
+            "sl": [
+                "ENERGETSKI VIR"
+            ],
+            "en": [
+                "ENERGY SOURCE"
+            ]
+        },
+        "HEADING": {
+            "sl": [
+                "LETO",
+                "VRSTA RABE"
+            ],
+            "en": [
+                "YEAR",
+                "TYPE OF USE"
+            ]
+        },
+        "VALUES(ENERGETSKI VIR)": {
+            "sl": [
+                "Geotermalna in toplota iz okolice (TJ)",
+                "Solarna termična (TJ)",
+                "Sončna energija (fotovoltaika) (TJ)",
+                "Vetrna energija (TJ)",
+                "Industrijski odpadki - obnovljivi (TJ)",
+                "Industrijski odpadki - neobnovljivi (TJ)",
+                "Komunalni odpadki - obnovljivi (TJ)",
+                "Komunalni odpadki - neobnovljivi (TJ)",
+                "Les in druga trdna biomasa (TJ)",
+                "Deponijski plin (TJ)",
+                "Plin iz čistilnih naprav (TJ)",
+                "Drugi bioplini (TJ)",
+                "Biodizel (TJ)",
+                "Biobencin (TJ)"
+            ],
+            "en": [
+                "Geothermal and ambient heat (TJ)",
+                "Solar thermal (TJ)",
+                "Solar photovoltaic (TJ)",
+                "Wind (TJ)",
+                "Industrial wastes - renewables (TJ)",
+                "Industrial wastes - non-renewables (TJ)",
+                "Municipal Solid Waste - renewables (TJ)",
+                "Municipal Solid Waste - non-renewables (TJ)",
+                "Wood/Wood wastes/Other Solid Wastes (TJ)",
+                "Landfill gas (TJ)",
+                "Sewage sludge gas (TJ)",
+                "Other Biogas (TJ)",
+                "Biodiesel (TJ)",
+                "Biogasoline (TJ)"
+            ]
+        },
+        "VALUES(LETO)": {
+            "sl": [
+                "2002",
+                "2003",
+                "2004",
+                "2005",
+                "2006",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021",
+                "2022",
+                "2023"
+            ],
+            "en": [
+                "2002",
+                "2003",
+                "2004",
+                "2005",
+                "2006",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021",
+                "2022",
+                "2023"
+            ]
+        },
+        "VALUES(VRSTA RABE)": {
+            "sl": [
+                "Transformacija",
+                "Končna raba",
+                "Skupaj"
+            ],
+            "en": [
+                "Transformation",
+                "End use",
+                "Total"
+            ]
+        },
+        "TIMEVAL(LETO)": {
+            "sl": [
+                "2002",
+                "2003",
+                "2004",
+                "2005",
+                "2006",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021",
+                "2022",
+                "2023"
+            ],
+            "en": [
+                "2002",
+                "2003",
+                "2004",
+                "2005",
+                "2006",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021",
+                "2022",
+                "2023"
+            ]
+        },
+        "CODES(ENERGETSKI VIR)": {
+            "sl": [
+                "01",
+                "02",
+                "14",
+                "15",
+                "13",
+                "03",
+                "04",
+                "05",
+                "06",
+                "08",
+                "09",
+                "10",
+                "11",
+                "12"
+            ],
+            "en": [
+                "01",
+                "02",
+                "14",
+                "15",
+                "13",
+                "03",
+                "04",
+                "05",
+                "06",
+                "08",
+                "09",
+                "10",
+                "11",
+                "12"
+            ]
+        },
+        "CODES(LETO)": {
+            "sl": [
+                "2002",
+                "2003",
+                "2004",
+                "2005",
+                "2006",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021",
+                "2022",
+                "2023"
+            ],
+            "en": [
+                "2002",
+                "2003",
+                "2004",
+                "2005",
+                "2006",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021",
+                "2022",
+                "2023"
+            ]
+        },
+        "CODES(VRSTA RABE)": {
+            "sl": [
+                "01",
+                "02",
+                "03"
+            ],
+            "en": [
+                "01",
+                "02",
+                "03"
+            ]
+        },
+        "CONTACT": {
+            "sl": [
+                "Statistični urad RS, T: (01) 241 64 04, E: gp.surs@gov.si"
+            ],
+            "en": [
+                "Statistical Office of the Republic of Slovenia, T: +386 1 241 64 04, E: gp.surs@gov.si"
+            ]
+        },
+        "DATABASE": {
+            "sl": [
+                "SI-STAT"
+            ],
+            "en": [
+                "SI-STAT"
+            ]
+        },
+        "SOURCE": {
+            "sl": [
+                "Statistični urad Republike Slovenije"
+            ],
+            "en": [
+                "Statistical Office of the Republic of Slovenia"
+            ]
+        },
+        "NOTE": {
+            "sl": [
+                "Povezane vsebine: #- <A class=seznam HREF=http://www.stat.si/StatWeb/Common/PrikaziDokument.ashx?IdDatoteke=8167 target=_blank>Metodološka pojasnila</A>"
+            ],
+            "en": [
+                "Linked content:# - <A class=seznam HREF= http://www.stat.si/StatWeb/Common/PrikaziDokument.ashx?IdDatoteke=8345 target=_blank>Methodological explanations</A>"
+            ]
+        },
+        "VALUENOTEX(ENERGETSKI VIR,Geotermalna in toplota iz okolice (TJ))": {
+            "sl": [
+                "Toplota iz okolice vključuje aerotermalno, hidrotermalno ali geotermalno energijo, ki se izkorišča s pomočjo toplotnih črpalk, ne vključuje pa energije, ki se uporablja za pogon",
+                "toplotnih črpalk (elektrika ipd.)."
+            ],
+            "en": [
+                "Ambient heat includes aerothermal, hydrothermal or geothermal energy captured by heat pumps from the environment; energy used to drive heat pumps (electricity etc.) is not included."
+            ]
+        },
+        "CELLNOTEX(Sončna energija (fotovoltaika) (TJ),2023,Transformacija)": {
+            "sl": [
+                "Zdaj objavljeni podatki o sončni energiji (fotovoltaika) so v primerjavi s tistimi, ki so bili objavljeni 8. 10. 2024 popravljeni. Prvotno objavljena vrednost tega podatka je bila 3319,661 TJ. Za spremembo se opravičujemo in prosimo za razumevanje."
+            ],
+            "en": [
+                "Data for solar photovoltaic have been corrected compared to the release of 8. 10. 2024. The previously published value was 3319,661 TJ. We apologise for any inconvenience."
+            ]
+        },
+        "CELLNOTEX(Sončna energija (fotovoltaika) (TJ),2023,Skupaj)": {
+            "sl": [
+                "Zdaj objavljeni podatki o sončni energiji (fotovoltaika) so v primerjavi s tistimi, ki so bili objavljeni 8. 10. 2024 popravljeni. Prvotno objavljena vrednost tega podatka je bila 3319,661 TJ. Za spremembo se opravičujemo in prosimo za razumevanje."
+            ],
+            "en": [
+                "Data for solar photovoltaic have been corrected compared to the release of 8. 10. 2024. The previously published value was 3319,661 TJ. We apologise for any inconvenience."
+            ]
+        },
+        "CELLNOTEX(Vetrna energija (TJ),2023,Transformacija)": {
+            "sl": [
+                "Zdaj objavljeni podatki o vetrni energiji so v primerjavi s tistimi, ki so bili objavljeni 8. 10. 2024 popravljeni. Prvotno objavljena vrednost tega podatka je bila 23,126 TJ. Za spremembo se opravičujemo in prosimo za razumevanje."
+            ],
+            "en": [
+                "Data for wind have been corrected compared to the release of 8. 10. 2024. The previously published value was 23,126 TJ. We apologise for any inconvenience."
+            ]
+        },
+        "CELLNOTEX(Vetrna energija (TJ),2023,Skupaj)": {
+            "sl": [
+                "Zdaj objavljeni podatki o vetrni energiji so v primerjavi s tistimi, ki so bili objavljeni 8. 10. 2024 popravljeni. Prvotno objavljena vrednost tega podatka je bila 23,126 TJ. Za spremembo se opravičujemo in prosimo za razumevanje."
+            ],
+            "en": [
+                "Data for wind have been corrected compared to the release of 8. 10. 2024. The previously published value was 23,126 TJ. We apologise for any inconvenience."
+            ]
+        },
+        "DATASYMBOL1": {
+            "sl": [
+                "N"
+            ],
+            "en": [
+                "N"
+            ]
+        },
+        "DATASYMBOL2": {
+            "sl": [
+                "-"
+            ],
+            "en": [
+                "-"
+            ]
+        },
+        "DATASYMBOL4": {
+            "sl": [
+                "z"
+            ],
+            "en": [
+                "z"
+            ]
+        }
+    }
+}
