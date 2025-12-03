@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import BackgroundImage from "images/nature.jpg";
-import { Link } from "react-scroll"; 
+import { Link as ScrollLink } from "react-scroll";
 
 import Header, { NavLink, NavLinks, PrimaryLink, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
 
@@ -100,11 +100,47 @@ export default () => {
 
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="#">O Apartmaju</NavLink>
-      <NavLink href="#lokacija" smooth={true} duration={500}>Lokacija</NavLink>
-      <NavLink href="#lokacija">Kontakt</NavLink>
-      <NavLink href="#o-nas">O Nas</NavLink>
+      <NavLink
+        as={ScrollLink}
+        to="apartma"
+        smooth={true}
+        duration={600}
+        offset={-80}   // prilagodi višini headerja
+      >
+        O Apartmaju
+      </NavLink>
+  
+      <NavLink
+        as={ScrollLink}
+        to="lokacija"
+        smooth={true}
+        duration={600}
+        offset={-80}
+      >
+        Lokacija
+      </NavLink>
+  
+      <NavLink
+        as={ScrollLink}
+        to="lokacija"
+        smooth={true}
+        duration={600}
+        offset={-80}
+      >
+        Kontakt
+      </NavLink>
+  
+      <NavLink
+        as={ScrollLink}
+        to="o-nas"
+        smooth={true}
+        duration={600}
+        offset={-80}
+      >
+        O Nas
+      </NavLink>
     </NavLinks>,
+  
     <NavLinks key={2}>
       {!isLoggedIn && (
         <>
@@ -122,12 +158,9 @@ export default () => {
         </>
       )}
     </NavLinks>,
+  
     <NavLinks key={3}>
-      {isAdmin && (
-        <>
-          <NavLink href="/dashboard">Dashboard</NavLink>
-        </>
-      )}
+      {isAdmin && <NavLink href="/dashboard">Dashboard</NavLink>}
     </NavLinks>,
   ];
 
