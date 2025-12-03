@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import tw from "twin.macro"; //eslint-disable-line
-import { css } from "styled-components/macro"; //eslint-disable-line
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 
 import Hero from "components/hero/BackgroundAsImage.js";
@@ -12,8 +10,6 @@ import ScrapingComponent from "scraping/ScrapingComponent";
 import NotificationBar from "components/notifications/NotificationBar";
 import PhotoGallery from "components/notifications/PhotoGallery";
 import MapComponent from "components/notifications/MapComponent";
-
-//const AdminNotification = tw.div`bg-yellow-100 text-yellow-800 p-4 rounded-lg shadow-md mb-6`;
 
 export default () => {
   const [isAdmin, setIsAdmin] = useState(false);
@@ -49,16 +45,26 @@ export default () => {
     fetchUserData();
   }, []);
 
-
   return (
     <AnimationRevealPage>
-      <Hero />
-      {/* Prikaz obvestila samo za admina */}
-      {isAdmin && <NotificationBar />}
+      {/* O apartmaju */}
+      <section id="apartma">
+        <Hero />
+        {isAdmin && <NotificationBar />}
+      </section>
+
+      {/* Galerija, če jo želiš vezati na O apartmaju, jo lahko pustiš tu */}
       <PhotoGallery />
-      <MainFeature />
-      <MapComponent />
-      <AboutUs />
+
+      {/* Lokacija */}
+      <section id="lokacija">
+        <MapComponent />
+      </section>
+
+      {/* O nas */}
+      <section id="o-nas">
+        <AboutUs />
+      </section>
       <EnergyChart />
       <ScrapingComponent />
       <Footer />
