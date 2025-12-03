@@ -6,6 +6,7 @@ const jwt = require('jsonwebtoken');
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const cors = require('cors');
+const { connectRabbitMQ, sendToQueue, startQueueListener, broadcastToClients } = require("./rabbitmq.js");
 
 const app = express();
 const port = 5050;
@@ -13,6 +14,11 @@ const port = 5050;
 // Middleware
 app.use(cors());
 app.use(express.json());
+
+// Poveži RabbitMQ ob zagonu strežnika
+connectRabbitMQ();
+
+let lastDeviceStates = null;
 
 // Povezava z MongoDB Atlas
 mongoose.connect(process.env.MONGODB_URI, {
@@ -61,6 +67,52 @@ const authenticate = (req, res, next) => {
     }
 };
 
+// API za shranjevanje stanj naprav
+app.post('/api/naprave/stanja', (req, res) => {
+    try {
+        console.log('Prejeti podatki:', JSON.stringify(req.body, null, 2));
+      const { reservationId, rooms } = req.body;
+  
+      if (!reservationId || reservationId.trim() === '') {
+        return res.status(400).json({ message: 'Manjka reservationId.' });
+      }
+      if (!rooms || rooms.length === 0) {
+        return res.status(400).json({ message: 'Manjka seznam prostorov (rooms).' });
+      }
+  
+      // Shranimo podatke v spomin strežnika
+      lastDeviceStates = {
+        reservationId,
+        rooms,
+        updatedAt: new Date(),
+      };
+  
+      res.status(201).json({ message: 'Podatki o napravah uspešno shranjeni.' });
+    } catch (err) {
+      console.error('Napaka pri shranjevanju podatkov:', err);
+      res.status(500).json({ message: 'Napaka pri shranjevanju podatkov.' });
+    }
+  });
+
+// API za pridobivanje stanj naprav glede na ID rezervacije
+app.get('/api/naprave/stanja/:reservationId',  (req, res) => {
+    try {
+      const { reservationId } = req.params;
+  
+      // Preverimo, ali so podatki na voljo
+      if (!lastDeviceStates || lastDeviceStates.reservationId !== reservationId) {
+        return res.status(404).json({ message: 'Ni shranjenih podatkov za to rezervacijo.' });
+      }
+  
+      // Vrni podatke za rezervacijo
+      res.status(200).json(lastDeviceStates);
+    } catch (err) {
+      console.error('Napaka pri pridobivanju podatkov:', err);
+      res.status(500).json({ message: 'Napaka pri pridobivanju podatkov.' });
+    }
+  });
+  
+
 // API za registracijo uporabnika
 app.post('/api/uporabniki/register', async (req, res) => {
     try {
@@ -104,13 +156,34 @@ app.post('/api/uporabniki/login', async (req, res) => {
         }
 
         // Ustvari JWT
-        const token = jwt.sign({ id: uporabnik._id, email: uporabnik.email }, JWT_SECRET, { expiresIn: '1h' });
+        const token = jwt.sign({ id: uporabnik._id, email: uporabnik.email, isAdmin: uporabnik.isAdmin, }, JWT_SECRET, { expiresIn: '1h' });
+
+        // Če je uporabnik admin, zaženemo poslušalca
+    if (uporabnik.isAdmin) {
+        await startQueueListener(broadcastToClients);
+      }
+
         res.status(200).json({ message: 'Prijava uspešna.', token });
     } catch (err) {
         console.error('Napaka pri prijavi:', err);
         res.status(500).json({ message: 'Napaka pri prijavi.' });
     }
 });
+
+// API za pridobivanje informacij o trenutno prijavljenem uporabniku
+app.get('/api/uporabniki/me', authenticate, async (req, res) => {
+    try {
+      // Pridobimo podatke o uporabniku na podlagi ID-ja iz JWT
+      const user = await User.findById(req.user.id).select('-geslo'); // Izključimo geslo iz odziva
+      if (!user) {
+        return res.status(404).json({ message: 'Uporabnik ni najden.' });
+      }
+      res.status(200).json(user);
+    } catch (err) {
+      console.error('Napaka pri pridobivanju podatkov o uporabniku:', err);
+      res.status(500).json({ message: 'Napaka pri pridobivanju podatkov o uporabniku.' });
+    }
+  });
 
 // API za shranjevanje rezervacij
 app.post('/api/rezervacije', authenticate, async (req, res) => {
@@ -150,6 +223,23 @@ app.post('/api/rezervacije', authenticate, async (req, res) => {
       });
   
       await newReservation.save();
+
+      // Debugging: logirajte podatke, ki jih pošiljate
+    const reservationMessage = {
+        reservationId: newReservation._id,
+        userId: req.user.id,
+        checkIn: checkInDate,
+        checkOut: checkOutDate,
+        adults,
+        children,
+        price: totalPrice,
+      };
+  
+      console.log('Sporočilo poslano v RabbitMQ:', reservationMessage);
+  
+      // Pošljite podatke v RabbitMQ
+      await sendToQueue(reservationMessage);
+  
   
       res.status(201).json({ message: 'Rezervacija uspešno shranjena.', reservation: newReservation });
     } catch (err) {
@@ -182,21 +272,33 @@ app.post('/api/rezervacije', authenticate, async (req, res) => {
 
 // Middleware za preverjanje, ali je uporabnik admin
 const checkAdmin = (req, res, next) => {
-    if (!req.user.isAdmin) {
-        return res.status(403).json({ message: 'Dostop zavrnjen. Samo administratorji imajo dostop.' });
-    }
-    next();
+  // Preveri, ali je uporabnik avtenticiran
+  if (!req.user) {
+      return res.status(401).json({ message: 'Dostop zavrnjen. Najprej se prijavite.' });
+  }
+
+  // Preveri, ali ima uporabnik administratorske pravice
+  if (!req.user.isAdmin) {
+    console.log("nimaš dostopa")
+      return res.status(403).json({ message: 'Dostop zavrnjen. Samo administratorji imajo dostop.' });
+  }
+
+  // Uporabnik je administrator, nadaljuj z naslednjo funkcijo
+  next();
 };
+
 
 // API za pridobivanje vseh rezervacij (samo za admina)
 app.get('/api/admin/rezervacije', authenticate, checkAdmin, async (req, res) => {
-    try {
-        const reservations = await Reservation.find(); // Pridobimo vse rezervacije
-        res.status(200).json(reservations);
-    } catch (err) {
-        console.error('Napaka pri pridobivanju vseh rezervacij:', err);
-        res.status(500).json({ message: 'Napaka pri pridobivanju vseh rezervacij.' });
-    }
+  try {
+      // Pridobimo vse rezervacije in povežemo podatke o uporabniku
+      const reservations = await Reservation.find().populate('userId', 'ime email priimek');
+
+      res.status(200).json(reservations);
+  } catch (err) {
+      console.error('Napaka pri pridobivanju vseh rezervacij:', err);
+      res.status(500).json({ message: 'Napaka pri pridobivanju vseh rezervacij.' });
+  }
 });
 
 // API za pridobivanje uporabnikovih rezervacij

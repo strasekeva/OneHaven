@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
-import { css } from "styled-components/macro"; //eslint-disable-line
 import BackgroundImage from "images/nature.jpg";
+import { Link } from "react-scroll"; 
 
 import Header, { NavLink, NavLinks, PrimaryLink, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
 
@@ -41,11 +41,11 @@ const SlantedBackground = styled.span`
   }
 `;
 
-export default () => {
-  // Stanje za preverjanje prijave
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  // Preverjanje prijave iz lokalnega shranjevanja ali tokena
+export default () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isAdmin, setIsAdmin] = useState(false);
+
   useEffect(() => {
     const token = localStorage.getItem("authToken");
     if (token) {
@@ -55,18 +55,55 @@ export default () => {
     }
   }, []);
 
-  // Funkcija za odjavo
+  // Pridobivanje podatkov o uporabniku z uporabo REST API
+  useEffect(() => {
+    const fetchUserData = async () => {
+      const token = localStorage.getItem("authToken");
+      if (!token) {
+        setIsLoggedIn(false);
+        setIsAdmin(false);
+        return;
+      }
+
+      try {
+        const response = await fetch("http://localhost:5050/api/uporabniki/me", {
+          method: "GET",
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        });
+
+        if (response.ok) {
+          const user = await response.json();
+          setIsLoggedIn(true);
+          setIsAdmin(user.isAdmin); // Preverimo, če je uporabnik admin
+        } else {
+          setIsLoggedIn(false);
+          setIsAdmin(false);
+        }
+      } catch (error) {
+        console.error("Napaka pri pridobivanju podatkov o uporabniku:", error);
+        setIsLoggedIn(false);
+        setIsAdmin(false);
+      }
+    };
+
+    fetchUserData();
+  }, []);
+
+
   const handleLogout = () => {
-    localStorage.removeItem("authToken"); // Odstranimo token
-    setIsLoggedIn(false); // Posodobimo stanje
+    localStorage.removeItem("authToken");
+    setIsLoggedIn(false);
+    setIsAdmin(false);
   };
 
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="#">O apartmaju</NavLink>
-      <NavLink href="#">Lokacija</NavLink>
-      <NavLink href="#">Galerija</NavLink>
-      <NavLink href="#">Kontakt</NavLink>
+      <NavLink href="#">O Apartmaju</NavLink>
+      <NavLink href="#lokacija" smooth={true} duration={500}>Lokacija</NavLink>
+      <NavLink href="#lokacija">Kontakt</NavLink>
+      <NavLink href="#o-nas">O Nas</NavLink>
     </NavLinks>,
     <NavLinks key={2}>
       {!isLoggedIn && (
@@ -82,6 +119,13 @@ export default () => {
           <NavLink as="button" onClick={handleLogout}>
             Odjava
           </NavLink>
+        </>
+      )}
+    </NavLinks>,
+    <NavLinks key={3}>
+      {isAdmin && (
+        <>
+          <NavLink href="/dashboard">Dashboard</NavLink>
         </>
       )}
     </NavLinks>,

@@ -6,7 +6,7 @@ import { css } from "styled-components/macro";
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
 
-import { MdAcUnit, MdSupport, MdBuild, MdThumbUp, MdSpeed, MdCheckCircle } from "react-icons/md";
+import { MdAcUnit, MdOutlineMap,MdOutlineHome, MdBuild, MdSupervisedUserCircle, MdElectricCar, MdCheckCircle } from "react-icons/md";
 
 import { ReactComponent as SvgDecoratorBlob3 } from "images/svg-decorator-blob-3.svg";
 
@@ -51,7 +51,7 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
   ${tw`pointer-events-none absolute right-0 bottom-0 w-64 opacity-25 transform translate-x-32 translate-y-48 `}
 `;
 
-export default ({ cards = null, heading = "Kaj ponujamo", description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }) => {
+export default ({ cards = null, heading = "Kaj ponujamo" }) => {
   /*
    * This component has an array of objects denoting the cards defined below. Each object in the cards array has the following keys:
    *  1) icon - React component for the icon to display
@@ -62,34 +62,34 @@ export default ({ cards = null, heading = "Kaj ponujamo", description = "Lorem i
 
   const defaultCards = [
     {
-      icon: MdAcUnit,
-      title: "Klimatska naprava",
-      description: "We strictly only deal with vendors that provide top notch security."
+      icon: MdOutlineHome,
+      title: "Prostorne sobe",
+      description: "Uživajte v udobnih, svetlih in prostorno zasnovanih sobah, ki ponujajo popolno udobje za sprostitev."
     },
     {
-      icon: MdSupport,
-      title: "24/7 Support",
-      description: "We are always available to help you."
+      icon: MdOutlineMap,
+      title: "Lokacija v bližini vsega",
+      description: "Naša nastanitev se nahaja blizu plaže, trgovin in lokalnih znamenitosti – vse na dosegu roke."
     },
     {
       icon: MdBuild,
-      title: "Customizable",
-      description: "Easily customizable to meet your specific needs."
+      title: "Popolnoma opremljeno",
+      description: "Apartma vključuje vse sodobne pripomočke, od popolnoma opremljene kuhinje do brezplačnega Wi-Fi-ja."
     },
     {
-      icon: MdThumbUp,
-      title: "Reliable",
-      description: "Reliable solutions that you can trust."
+      icon: MdAcUnit,
+      title: "Klimatiziran prostor",
+      description: "Ostajajte prijetno ohlajeni v vročih dneh in se sprostite v prijetni notranjosti."
     },
     {
-      icon: MdSpeed,
-      title: "Fast",
-      description: "Fast and efficient services guaranteed."
+      icon: MdSupervisedUserCircle,
+      title: " Idealno za družine",
+      description: "Naša nastanitev je popolna izbira za družine – dovolj prostora za vse in otrokom prijazno okolje."
     },
     {
-      icon: MdCheckCircle,
-      title: "Easy",
-      description: "Simple and easy to use solutions."
+      icon: MdElectricCar,
+      title: "Brezplačno parkirišče",
+      description: "Poskrbeli smo za udobno in varno parkirišče za vaše vozilo med bivanjem pri nas."
     }
   ];
 
@@ -99,7 +99,6 @@ export default ({ cards = null, heading = "Kaj ponujamo", description = "Lorem i
     <Container>
       <ThreeColumnContainer>
         <Heading>{heading}</Heading>
-        {description && <Description>{description}</Description>}
         <VerticalSpacer />
         {cards.map((card, i) => (
           <Column key={i}>

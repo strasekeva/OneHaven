@@ -110,6 +110,7 @@ import Signup from "pages/Signup";
 import Login from "pages/Login";
 import UserProfile from "profiles/UserProfile";
 import Reservation from "components/forms/Reservation";
+import AdminPanel from "profiles/AdminPanel";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -128,6 +129,7 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/profil" element={<UserProfile />} />
           <Route path="/reservation" element={<Reservation />} />
+          <Route path="/dashboard" element={<AdminPanel />} />
           <Route path="/" element={<AgencyLandingPage />} />
         </Routes>
       </Router>
