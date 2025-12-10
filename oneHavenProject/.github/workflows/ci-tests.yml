@@ -18,6 +18,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: Show repo structure (debug)
+        run: ls -R
+
       - name: Install backend dependencies
         working-directory: ./oneHavenProject/backend
         run: npm install
@@ -46,6 +49,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+
+      - name: Show repo structure (debug)
+        run: ls -R
 
       - name: Install frontend dependencies
         working-directory: ./oneHavenProject/frontend
