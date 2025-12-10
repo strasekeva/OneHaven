@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken');
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const cors = require('cors');
-const { connectRabbitMQ, sendToQueue, startQueueListener, broadcastToClients } = require("./rabbitmq.js");
+//const { connectRabbitMQ, sendToQueue, startQueueListener, broadcastToClients } = require("./rabbitmq.js");
 
 const app = express();
 const port = 5050;
@@ -16,7 +16,7 @@ app.use(cors());
 app.use(express.json());
 
 // Poveži RabbitMQ ob zagonu strežnika
-connectRabbitMQ();
+//connectRabbitMQ();
 
 let lastDeviceStates = null;
 
@@ -238,7 +238,7 @@ app.post('/api/rezervacije', authenticate, async (req, res) => {
       console.log('Sporočilo poslano v RabbitMQ:', reservationMessage);
   
       // Pošljite podatke v RabbitMQ
-      await sendToQueue(reservationMessage);
+      //await sendToQueue(reservationMessage);
   
   
       res.status(201).json({ message: 'Rezervacija uspešno shranjena.', reservation: newReservation });
