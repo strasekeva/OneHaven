@@ -44,7 +44,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "yarn build && netlify deploy --prod --dir=build",
-
     "start:backend": "cd backend && npm start",
     "test:backend": "cd backend && npm test"
   },
@@ -72,5 +71,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "whatwg-fetch": "^3.6.20"
   }
 }
