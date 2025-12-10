@@ -21,11 +21,13 @@ app.use(express.json());
 let lastDeviceStates = null;
 
 // Povezava z MongoDB Atlas
-mongoose.connect(process.env.MONGODB_URI, {
+if (process.env.NODE_ENV !== 'test') {
+  mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-}).then(() => console.log('Povezava z MongoDB uspešna.'))
-  .catch(err => console.error('Napaka pri povezavi z MongoDB:', err));
+  }).then(() => console.log('Povezava z MongoDB uspešna.'))
+    .catch(err => console.error('Napaka pri povezavi z MongoDB:', err));
+}
 
 // Tajni ključ za JWT
 const JWT_SECRET = process.env.JWT_SECRET || 'tajni_kljuc';
@@ -315,11 +317,11 @@ app.get('/api/rezervacije', authenticate, async (req, res) => {
 // API za pridobivanje podatkov o gostilnah
 app.get('/api/gostilne', (req, res) => {
     try {
-        if (!fs.existsSync('gostisce_data.json')) {
+        if (!fs.existsSync('./scraping/gostisce_data.json')) {
             return res.status(404).json({ message: 'Podatki niso na voljo' });
         }
 
-        const data = fs.readFileSync('gostisce_data.json', 'utf-8');
+        const data = fs.readFileSync('./scraping/gostisce_data.json', 'utf-8');
         res.status(200).json(JSON.parse(data));
     } catch (error) {
         console.error('Napaka pri branju podatkov:', error);
@@ -382,4 +384,9 @@ app.post('/api/gostilne/scrape', async (req, res) => {
 });
 
 // Zaženemo strežnik
-app.listen(port, () => console.log(`Strežnik zagnan na http://localhost:${port}`));
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(port, () => console.log(`Strežnik zagnan na http://localhost:${port}`));
+}
+
+// omogočimo import v testih
+module.exports = { app, User, Reservation };
