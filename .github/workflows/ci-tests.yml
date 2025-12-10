@@ -18,12 +18,16 @@ jobs:
         with:
           node-version: 20
 
+      # samo za debug – da vidimo strukturo, če kaj ne dela
+      - name: Show repo structure
+        run: ls -R
+
       - name: Install backend dependencies
-        working-directory: ./backend
+        working-directory: ./oneHavenProject/backend
         run: npm install
 
       - name: Run backend tests with coverage
-        working-directory: ./backend
+        working-directory: ./oneHavenProject/backend
         env:
           NODE_ENV: test
         run: npm test -- --coverage
@@ -32,7 +36,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: backend-coverage
-          path: backend/coverage
+          path: oneHavenProject/backend/coverage
 
   frontend-tests:
     name: Frontend tests
@@ -47,12 +51,16 @@ jobs:
         with:
           node-version: 20
 
+      # tudi tukaj en ls -R za vsak slučaj
+      - name: Show repo structure
+        run: ls -R
+
       - name: Install frontend dependencies
-        working-directory: ./frontend
+        working-directory: ./oneHavenProject/frontend
         run: npm install
 
       - name: Run frontend tests with coverage
-        working-directory: ./frontend
+        working-directory: ./oneHavenProject/frontend
         env:
           CI: true
         run: npm test -- --watch=false --coverage
@@ -61,4 +69,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: frontend-coverage
-          path: frontend/coverage
+          path: oneHavenProject/frontend/coverage
