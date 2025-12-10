@@ -2,15 +2,15 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
-import kitchenImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/src/images/kitchen.webp";
-import diningImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/src/images/dining_room.jpg";
-import livingRoomImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/src/images/living_room.png";
-import bedroomImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/src/images/bedroom.jpg";
-import bathroomImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/src/images/bathroom.avif";
-import kidsImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/src/images/kids.webp";
-import houseImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/src/images/image.png";
-import laundryImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/src/images/laundry.jpeg";
-import viewImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/src/images/view.jpg";
+import kitchenImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/frontend/src/images/kitchen.webp";
+import diningImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/frontend//src/images/dining_room.jpg";
+import livingRoomImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/frontend/src/images/living_room.png";
+import bedroomImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/frontend/src/images/bedroom.jpg";
+import bathroomImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/frontend/src/images/bathroom.avif";
+import kidsImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/frontend/src/images/kids.webp";
+import houseImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/frontend/src/images/image.png";
+import laundryImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/frontend/src/images/laundry.jpeg";
+import viewImage from "/Users/evastrasek/Documents/TIDS/Projekt/OneHaven/oneHavenProject/frontend/src/images/view.jpg";
 import { PrimaryButton } from "components/misc/Buttons";
 
 const Container = styled.div`
