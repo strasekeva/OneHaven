@@ -18,8 +18,7 @@ jobs:
         with:
           node-version: 20
 
-      # samo za debug – da vidimo strukturo, če kaj ne dela
-      - name: Show repo structure
+      - name: Show repo structure (debug)
         run: ls -R
 
       - name: Install backend dependencies
@@ -51,8 +50,7 @@ jobs:
         with:
           node-version: 20
 
-      # tudi tukaj en ls -R za vsak slučaj
-      - name: Show repo structure
+      - name: Show repo structure (debug)
         run: ls -R
 
       - name: Install frontend dependencies
