@@ -1,0 +1,64 @@
+name: CI - Frontend & Backend tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  backend-tests:
+    name: Backend tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install backend dependencies
+        working-directory: ./oneHavenProject/backend
+        run: npm install
+
+      - name: Run backend tests with coverage
+        working-directory: ./oneHavenProject/backend
+        env:
+          NODE_ENV: test
+        run: npm test -- --coverage
+
+      - name: Upload backend coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-coverage
+          path: oneHavenProject/backend/coverage
+
+  frontend-tests:
+    name: Frontend tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install frontend dependencies
+        working-directory: ./oneHavenProject/frontend
+        run: npm install
+
+      - name: Run frontend tests with coverage
+        working-directory: ./oneHavenProject/frontend
+        env:
+          CI: true
+        run: npm test -- --watch=false --coverage
+
+      - name: Upload frontend coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-coverage
+          path: oneHavenProject/frontend/coverage
