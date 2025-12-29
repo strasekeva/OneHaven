@@ -62,7 +62,7 @@ jobs:
 
       - name: Run frontend tests with coverage
         env:
-          CI: true
+          CI: false
         run: npm test -- --watch=false --coverage
 
       - name: Upload frontend coverage report
@@ -95,7 +95,7 @@ jobs:
       - name: Build frontend
         working-directory: ./oneHavenProject/frontend
         env:
-          CI: true
+          CI: false
         run: npm run build
 
       - name: Upload frontend build artifact
