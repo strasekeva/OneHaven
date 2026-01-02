@@ -3,6 +3,7 @@ import React from "react";
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import Reservation from "./Reservation";
 import "@testing-library/jest-dom";
+import { API_URL } from "api";
 
 // Mock react-calendar, da ne rendera pravega koledarja v testih
 jest.mock("react-calendar", () => (props) => (
