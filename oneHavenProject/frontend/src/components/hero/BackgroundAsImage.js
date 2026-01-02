@@ -66,7 +66,7 @@ export default () => {
       }
 
       try {
-        const response = await fetch("http://localhost:5050/api/uporabniki/me", {
+        const response = await fetch(`${API_URL}/api/uporabniki/me`, {
           method: "GET",
           headers: {
             Authorization: `Bearer ${token}`,

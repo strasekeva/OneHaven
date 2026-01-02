@@ -7,6 +7,7 @@ import { SectionHeading, Subheading as SubheadingBase } from "components/misc/He
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
+import { API_URL } from "api";
 
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24`;
@@ -70,7 +71,7 @@ export default ({
   useEffect(() => {
     const fetchOccupiedDates = async () => {
       try {
-        const response = await fetch("http://localhost:5050/api/rezervacije/zasedeni-datumi");
+        const response = await fetch(`${API_URL}/api/rezervacije/zasedeni-datumi`);
         if (!response.ok) throw new Error("Napaka pri nalaganju zasedenih datumov.");
         const data = await response.json();
         const formattedDates = data.map((date) => new Date(date)); // Pretvorimo datume v objekte Date
@@ -102,7 +103,7 @@ export default ({
     };
 
     try {
-      const response = await fetch("http://localhost:5050/api/rezervacije", {
+      const response = await fetch(`${API_URL}/api/rezervacije`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

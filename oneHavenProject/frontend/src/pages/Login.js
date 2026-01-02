@@ -8,6 +8,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import illustration from "images/login-illustration.svg";
 import logo from "images/logo.svg";
 import { ReactComponent as LoginIcon } from "feather-icons/dist/icons/log-in.svg";
+import { API_URL } from "api";
 
 const Container = tw(ContainerBase)`min-h-screen bg-primary-900 text-white font-medium flex justify-center -m-8`;
 const Content = tw.div`max-w-screen-xl m-0 sm:mx-20 sm:my-16 bg-white text-gray-900 shadow sm:rounded-lg flex justify-center flex-1`;
@@ -53,7 +54,7 @@ export default ({
     setError("");
 
     try {
-      const response = await fetch("http://localhost:5050/api/uporabniki/login", {
+      const response = await fetch(`${API_URL}/api/uporabniki/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

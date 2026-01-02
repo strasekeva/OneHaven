@@ -10,6 +10,7 @@ import ScrapingComponent from "scraping/ScrapingComponent";
 import NotificationBar from "components/notifications/NotificationBar";
 import PhotoGallery from "components/notifications/PhotoGallery";
 import MapComponent from "components/notifications/MapComponent";
+import { API_URL } from "api";
 
 export default () => {
   const [isAdmin, setIsAdmin] = useState(false);
@@ -23,7 +24,7 @@ export default () => {
       }
 
       try {
-        const response = await fetch("http://localhost:5050/api/uporabniki/me", {
+        const response = await fetch(`${API_URL}/api/uporabniki/me`, {
           method: "GET",
           headers: {
             Authorization: `Bearer ${token}`,
