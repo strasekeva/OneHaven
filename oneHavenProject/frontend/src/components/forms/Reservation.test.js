@@ -82,7 +82,7 @@ test("ob uspešni rezervaciji z JWT tokenom pokliče API in preusmeri na domačo
   await waitFor(() => {
     expect(global.fetch).toHaveBeenCalledTimes(2);
     expect(global.fetch).toHaveBeenLastCalledWith(
-      "http://localhost:5050/api/rezervacije",
+      `${API_URL}/api/rezervacije`,
       expect.objectContaining({
         method: "POST",
         headers: expect.objectContaining({

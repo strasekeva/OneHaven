@@ -51,7 +51,7 @@ test("ob uspešni prijavi shrani token in preusmeri na domačo stran", async () 
 
   await waitFor(() => {
     expect(global.fetch).toHaveBeenCalledWith(
-      "http://localhost:5050/api/uporabniki/login",
+      `${API_URL}/api/uporabniki/login`,
       expect.objectContaining({
         method: "POST",
         headers: { "Content-Type": "application/json" },

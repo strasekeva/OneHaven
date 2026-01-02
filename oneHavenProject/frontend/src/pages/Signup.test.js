@@ -44,7 +44,7 @@ test("ob uspešni registraciji pošlje podatke na API in preusmeri na /login", a
 
   await waitFor(() => {
     expect(global.fetch).toHaveBeenCalledWith(
-      "http://localhost:5050/api/uporabniki/register",
+      `${API_URL}/api/uporabniki/register`,
       expect.objectContaining({
         method: "POST",
         headers: { "Content-Type": "application/json" },
