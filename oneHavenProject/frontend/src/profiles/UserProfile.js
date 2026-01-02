@@ -4,6 +4,7 @@ import tw from "twin.macro";
 import Header, { NavLink, NavLinks, PrimaryLink, LogoLink } from "components/headers/light.js";
 import { FaLightbulb, FaThermometerHalf, FaTv, FaFire, FaPlug, FaWindowMaximize, FaUtensils, FaBath } from "react-icons/fa";
 import AdminPanel from "./AdminPanel";
+import { API_URL } from "api";
 
 const Container = tw.div`min-h-screen bg-gray-100 flex flex-col`;
 const Content = tw.div`flex-grow flex flex-col items-center pt-16 px-6 sm:px-16`;
@@ -129,7 +130,7 @@ export default function UserProfile() {
           return;
         }
 
-        const response = await fetch("http://localhost:5050/api/rezervacije", {
+        const response = await fetch(`${API_URL}/api/rezervacije`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
