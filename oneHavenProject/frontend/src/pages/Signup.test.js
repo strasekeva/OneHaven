@@ -3,6 +3,7 @@ import React from "react";
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import Signup from "./Signup";
 import "@testing-library/jest-dom";
+import { API_URL } from "api";
 
 jest.mock("helpers/AnimationRevealPage.js", () => ({ children }) => <>{children}</>);
 
