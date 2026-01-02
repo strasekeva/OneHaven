@@ -1,8 +1,9 @@
 name: CI - Tests and Build (Frontend + Backend)
 
 on:
-  push:
   pull_request:
+  push:
+    branches: [ "main" ]
 
 jobs:
   backend-tests:
@@ -122,9 +123,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build]
 
-    # Docker image push samo ob pushu na main
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -154,7 +152,6 @@ jobs:
     name: Trigger Render deploy (backend)
     runs-on: ubuntu-latest
     needs: [docker-backend]
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
 
     steps:
       - name: Trigger Render deploy hook
@@ -164,9 +161,6 @@ jobs:
     name: Deploy frontend to Firebase Hosting
     runs-on: ubuntu-latest
     needs: [build]
-
-    # Deploy samo ob pushu na main
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
 
     steps:
       - name: Checkout repo
