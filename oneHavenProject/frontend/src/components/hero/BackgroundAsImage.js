@@ -3,6 +3,7 @@ import tw from "twin.macro";
 import styled from "styled-components";
 import BackgroundImage from "images/nature.jpg";
 import { Link as ScrollLink } from "react-scroll";
+import { API_URL } from "api.js";
 
 import Header, { NavLink, NavLinks, PrimaryLink, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
 
@@ -66,7 +67,7 @@ export default () => {
       }
 
       try {
-        const response = await fetch("http://localhost:5050/api/uporabniki/me", {
+        const response = await fetch(`${API_URL}/api/uporabniki/me`, {
           method: "GET",
           headers: {
             Authorization: `Bearer ${token}`,

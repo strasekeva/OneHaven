@@ -10,6 +10,7 @@ import logo from "images/logo.svg";
 import googleIconImageSrc from "images/google-icon.png";
 import twitterIconImageSrc from "images/twitter-icon.png";
 import { ReactComponent as SignUpIcon } from "feather-icons/dist/icons/user-plus.svg";
+import { API_URL } from "api";
 
 const Container = tw(ContainerBase)`min-h-screen bg-primary-900 text-white font-medium flex justify-center -m-8`;
 const Content = tw.div`max-w-screen-xl m-0 sm:mx-20 sm:my-16 bg-white text-gray-900 shadow sm:rounded-lg flex justify-center flex-1`;
@@ -79,7 +80,7 @@ export default ({
     setSuccess("");
 
     try {
-      const response = await fetch("http://localhost:5050/api/uporabniki/register", {
+      const response = await fetch(`${API_URL}/api/uporabniki/register`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

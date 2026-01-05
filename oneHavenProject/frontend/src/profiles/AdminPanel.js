@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
+import { API_URL } from "api";
 
 const Container = tw.div`min-h-screen bg-gray-100 text-gray-900 flex flex-col items-center pt-10 px-4`;
 const Heading = tw.h1`text-3xl font-bold text-center mb-8`;
@@ -37,7 +38,7 @@ export default function AdminPanel() {
       try {
         const token = localStorage.getItem("authToken");
         const response = await fetch(
-          "http://localhost:5050/api/admin/rezervacije",
+          `${API_URL}/api/admin/rezervacije`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
