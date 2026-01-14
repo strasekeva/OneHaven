@@ -3,4 +3,4 @@ coverage
 .env
 .git
 .github
-npm-debug.log 
+npm-debug.logs
