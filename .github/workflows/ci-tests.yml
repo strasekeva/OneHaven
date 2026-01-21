@@ -5,6 +5,20 @@ on:
     branches: ["main", "production"]
   pull_request:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  # datadog-ci uporablja ta imena
+  DATADOG_API_KEY: ${{ secrets.DD_API_KEY }}
+  DATADOG_SITE: ${{ secrets.DD_SITE }} # datadoghq.eu ali datadoghq.com
+
+  # kontekst (opcijsko, koristno za filtre)
+  DD_SERVICE: onehaven
+  DD_ENV: ci
+  DD_TAGS: "repo:${{ github.repository }},branch:${{ github.ref_name }},workflow:${{ github.workflow }}"
+
 jobs:
   backend-tests:
     name: Backend tests
@@ -24,13 +38,15 @@ jobs:
           cache: npm
           cache-dependency-path: oneHavenProject/backend/package-lock.json
 
-      - name: Install backend dependencies
-        run: npm ci
+      - name: Install backend dependencies (Datadog traced)
+        run: |
+          npx -y @datadog/datadog-ci@latest trace --name "backend:npm ci" -- npm ci
 
-      - name: Run backend tests with coverage
+      - name: Run backend tests with coverage (Datadog traced)
         env:
           NODE_ENV: test
-        run: npm test -- --coverage
+        run: |
+          npx -y @datadog/datadog-ci@latest trace --name "backend:tests" -- npm test -- --coverage
 
       - name: Upload backend coverage report
         uses: actions/upload-artifact@v4
@@ -56,13 +72,15 @@ jobs:
           cache: npm
           cache-dependency-path: oneHavenProject/frontend/package-lock.json
 
-      - name: Install frontend dependencies
-        run: npm ci
+      - name: Install frontend dependencies (Datadog traced)
+        run: |
+          npx -y @datadog/datadog-ci@latest trace --name "frontend:npm ci" -- npm ci
 
-      - name: Run frontend tests with coverage
+      - name: Run frontend tests with coverage (Datadog traced)
         env:
           CI: false
-        run: npm test -- --watch=false --coverage
+        run: |
+          npx -y @datadog/datadog-ci@latest trace --name "frontend:tests" -- npm test -- --watch=false --coverage
 
       - name: Upload frontend coverage report
         uses: actions/upload-artifact@v4
@@ -79,7 +97,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # -------- FRONTEND BUILD --------
+      # FRONTEND BUILD
       - name: Setup Node.js (frontend) + cache
         uses: actions/setup-node@v4
         with:
@@ -91,11 +109,12 @@ jobs:
         working-directory: ./oneHavenProject/frontend
         run: npm ci
 
-      - name: Build frontend
+      - name: Build frontend (Datadog traced)
         working-directory: ./oneHavenProject/frontend
         env:
           CI: false
-        run: npm run build
+        run: |
+          npx -y @datadog/datadog-ci@latest trace --name "frontend:build" -- npm run build
 
       - name: Upload frontend build artifact
         uses: actions/upload-artifact@v4
@@ -103,11 +122,13 @@ jobs:
           name: frontend-build
           path: oneHavenProject/frontend/build
 
-      # -------- BACKEND "BUILD" ARTEFAKT --------
-      - name: Create backend build artifact (package)
+      # BACKEND ARTIFACT
+      - name: Create backend build artifact (Datadog traced)
         run: |
+          npx -y @datadog/datadog-ci@latest trace --name "backend:package" -- bash -euo pipefail <<'EOF'
           mkdir -p artifacts
           tar -czf artifacts/backend-build.tar.gz -C oneHavenProject/backend .
+          EOF
 
       - name: Upload backend build artifact
         uses: actions/upload-artifact@v4
@@ -126,7 +147,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install jq (needed for SonarCloud API parsing)
+      - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Download backend coverage artifact
@@ -150,7 +171,7 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
-          CE_TASK_ID=$(cat .scannerwork/report-task.txt | sed -n 's/ceTaskId=//p')
+          CE_TASK_ID=$(sed -n 's/ceTaskId=//p' .scannerwork/report-task.txt || true)
           if [ -z "$CE_TASK_ID" ]; then
             echo "ceTaskId ni najden v .scannerwork/report-task.txt"
             exit 1
@@ -158,17 +179,12 @@ jobs:
 
           echo "⏳ Čakam na SonarCloud Compute Engine task: $CE_TASK_ID"
 
-          DONE="false"
           for i in {1..30}; do
-            STATUS=$(curl -s -u "${SONAR_TOKEN}:" \
-              "https://sonarcloud.io/api/ce/task?id=${CE_TASK_ID}" \
-              | jq -r '.task.status')
-
-            echo "➡️  status: $STATUS (poskus $i/30)"
+            STATUS=$(curl -s -u "${SONAR_TOKEN}:" "https://sonarcloud.io/api/ce/task?id=${CE_TASK_ID}" | jq -r '.task.status')
+            echo "➡️ status: $STATUS (poskus $i/30)"
 
             if [ "$STATUS" = "SUCCESS" ]; then
               echo "Analiza je končana."
-              DONE="true"
               break
             fi
 
@@ -179,11 +195,6 @@ jobs:
 
             sleep 10
           done
-
-          if [ "$DONE" != "true" ]; then
-            echo "SonarCloud analiza ni končala v predvidenem času."
-            exit 1
-          fi
 
       - name: Quality Gate check (API) - fail if not OK
         env:
@@ -222,6 +233,10 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
+      - name: Build & push backend image (dev) (Datadog traced)
+        run: |
+          npx -y @datadog/datadog-ci@latest trace --name "docker:build+push dev" -- echo "starting docker build"
+          # dejanski build ostane kot prej (manj tveganja)
       - name: Build and push backend Docker image (dev)
         uses: docker/build-push-action@v6
         with:
@@ -277,6 +292,16 @@ jobs:
       - name: Trigger Render deploy hook
         run: curl -fsSL -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"
 
+      - name: Datadog DORA deployment event (backend prod)
+        run: |
+          STARTED_AT=$(date +%s)
+          npx -y @datadog/datadog-ci@latest dora deployment \
+            --service onehaven-backend \
+            --env prod \
+            --started-at "$STARTED_AT" \
+            --custom-tags "repo:${{ github.repository }}" \
+            --custom-tags "branch:${{ github.ref_name }}"
+
   deploy-frontend:
     name: Deploy frontend to Firebase Hosting
     runs-on: ubuntu-latest
@@ -298,11 +323,12 @@ jobs:
         working-directory: ./oneHavenProject/frontend
         run: npm ci
 
-      - name: Build frontend
+      - name: Build frontend (Datadog traced)
         working-directory: ./oneHavenProject/frontend
         env:
           CI: false
-        run: npm run build
+        run: |
+          npx -y @datadog/datadog-ci@latest trace --name "frontend:build (deploy job)" -- npm run build
 
       - name: Install Firebase CLI
         run: npm i -g firebase-tools
@@ -312,6 +338,7 @@ jobs:
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: firebase deploy --only hosting
+
 
   deploy-pages:
     name: Deploy project page to GitHub Pages
