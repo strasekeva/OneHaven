@@ -26,3 +26,6 @@ Prikazani so CI jobi, ki se izvajajo najpogosteje. Največ izvajanj imajo testi,
 Ker se ti jobi izvajajo ob vsakem zagonu pipeline-a, je smiselna optimizacija predvsem v zmanjševanju števila nepotrebnih izvajanj, kar je bilo doseženo z uporabo mehanizma concurrency.
 <img width="648" height="572" alt="image" src="https://github.com/user-attachments/assets/09ac9f9e-46b3-4098-84d9-f76c5bd949d7" />
 
+## GitHub Code Scanning
+V repozitoriju je bil omogočen GitHub Code Scanning. Po izvedenem varnostnem skeniranju na glavnem branchu niso bile zaznane nobene varnostne ranljivosti. Rezultati potrjujejo, da trenutna koda ne vsebuje znanih varnostnih težav, GitHub pa bo tudi v prihodnje samodejno spremljal morebitne nove ranljivosti.
+<img width="1406" height="838" alt="image" src="https://github.com/user-attachments/assets/fabd00d6-73b7-4459-95c2-7302b519dabe" />
