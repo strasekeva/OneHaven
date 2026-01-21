@@ -339,15 +339,6 @@ jobs:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: firebase deploy --only hosting
 
-      - name: Datadog DORA deployment event (frontend dev)
-        run: |
-          STARTED_AT=$(date +%s)
-          npx -y @datadog/datadog-ci@latest dora deployment \
-            --service onehaven-frontend \
-            --env dev \
-            --started-at "$STARTED_AT" \
-            --custom-tags "repo:${{ github.repository }}" \
-            --custom-tags "branch:${{ github.ref_name }}"
 
   deploy-pages:
     name: Deploy project page to GitHub Pages
