@@ -5,8 +5,6 @@ on:
     branches: ["main", "production"]
   pull_request:
     branches: ["main", "production"]
-  schedule:
-    - cron: "0 3 * * 0"
 
 jobs:
   analyze:
@@ -18,42 +16,19 @@ jobs:
       contents: read
       security-events: write
 
-    strategy:
-      fail-fast: false
-      matrix:
-        language: ["javascript-typescript"]
-
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@v3
+        uses: github/codeql-action/init@v4
         with:
-          languages: ${{ matrix.language }}
-          # Povej CodeQL, kje naj išče kodo (monorepo)
+          languages: javascript-typescript
           config: |
             paths:
               - oneHavenProject/frontend
               - oneHavenProject/backend
 
-      # Namesti odvisnosti (večinoma dovolj za boljše rezultate)
-      - name: Install frontend dependencies
-        working-directory: oneHavenProject/frontend
-        run: npm ci
-
-      - name: Install backend dependencies
-        working-directory: oneHavenProject/backend
-        run: npm ci
-
-      # Autobuild (CodeQL sam poskusi ugotoviti build korake)
-      - name: Autobuild
-        uses: github/codeql-action/autobuild@v3
-
+      # JS/TS ne rabi nujno builda za osnovni scan – to je najbolj robustno.
       - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v3
+        uses: github/codeql-action/analyze@v4
