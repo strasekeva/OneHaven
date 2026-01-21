@@ -292,15 +292,6 @@ jobs:
       - name: Trigger Render deploy hook
         run: curl -fsSL -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"
 
-      - name: Datadog DORA deployment event (backend prod)
-        run: |
-          STARTED_AT=$(date +%s)
-          npx -y @datadog/datadog-ci@latest dora deployment \
-            --service onehaven-backend \
-            --env prod \
-            --started-at "$STARTED_AT" \
-            --custom-tags "repo:${{ github.repository }}" \
-            --custom-tags "branch:${{ github.ref_name }}"
 
   deploy-frontend:
     name: Deploy frontend to Firebase Hosting
