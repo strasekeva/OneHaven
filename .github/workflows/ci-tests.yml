@@ -12,10 +12,13 @@ concurrency:
 
 # Datadog global env (uporabi povsod)
 env:
-  DD_API_KEY: ${{ secrets.DD_API_KEY }}
-  DD_SITE: ${{ secrets.DD_SITE }}      
-  DD_SERVICE: onehaven                 
-  DD_ENV: ci                           
+  # datadog-ci pričakuje ta imena
+  DATADOG_API_KEY: ${{ secrets.DD_API_KEY }}
+  DATADOG_SITE: ${{ secrets.DD_SITE }} # datadoghq.eu ali datadoghq.com
+
+  # (opcijsko) dodatni kontekst (uporaben za filtre v Datadogu)
+  DD_SERVICE: onehaven
+  DD_ENV: ci
   DD_TAGS: "repo:${{ github.repository }},branch:${{ github.ref_name }},workflow:${{ github.workflow }}"
 
 jobs:
@@ -30,15 +33,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # Datadog CI Visibility (pošlje pipeline/job/test podatke v Datadog)
-      - name: Datadog CI Visibility
-        uses: Datadog/ci-visibility-action@v2
-        env:
-          DD_API_KEY: ${{ env.DD_API_KEY }}
-          DD_SITE: ${{ env.DD_SITE }}
-          DD_SERVICE: ${{ env.DD_SERVICE }}
-          DD_ENV: ${{ env.DD_ENV }}
-
       - name: Setup Node.js (backend) + cache
         uses: actions/setup-node@v4
         with:
@@ -46,13 +40,21 @@ jobs:
           cache: npm
           cache-dependency-path: oneHavenProject/backend/package-lock.json
 
-      - name: Install backend dependencies
-        run: npm ci
+      # Bottleneck span: dependency install
+      - name: Install backend dependencies (Datadog traced)
+        run: npx -y @datadog/datadog-ci@latest trace --name "backend:npm ci" -- npm ci
 
-      - name: Run backend tests with coverage
+      # Bottleneck span: tests
+      - name: Run backend tests with coverage (Datadog traced)
         env:
           NODE_ENV: test
-        run: npm test -- --coverage
+        run: npx -y @datadog/datadog-ci@latest trace --name "backend:tests" -- npm test -- --coverage
+
+      # (opcijsko) dodatna metrika za analizo
+      - name: Measure backend coverage size (optional)
+        run: |
+          SIZE=$(du -sk coverage | awk '{print $1}')
+          npx -y @datadog/datadog-ci@latest measure --level job --measures "backend.coverage_kb:${SIZE}"
 
       - name: Upload backend coverage report
         uses: actions/upload-artifact@v4
@@ -71,14 +73,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Datadog CI Visibility
-        uses: Datadog/ci-visibility-action@v2
-        env:
-          DD_API_KEY: ${{ env.DD_API_KEY }}
-          DD_SITE: ${{ env.DD_SITE }}
-          DD_SERVICE: ${{ env.DD_SERVICE }}
-          DD_ENV: ${{ env.DD_ENV }}
-
       - name: Setup Node.js (frontend) + cache
         uses: actions/setup-node@v4
         with:
@@ -86,13 +80,13 @@ jobs:
           cache: npm
           cache-dependency-path: oneHavenProject/frontend/package-lock.json
 
-      - name: Install frontend dependencies
-        run: npm ci
+      - name: Install frontend dependencies (Datadog traced)
+        run: npx -y @datadog/datadog-ci@latest trace --name "frontend:npm ci" -- npm ci
 
-      - name: Run frontend tests with coverage
+      - name: Run frontend tests with coverage (Datadog traced)
         env:
           CI: false
-        run: npm test -- --watch=false --coverage
+        run: npx -y @datadog/datadog-ci@latest trace --name "frontend:tests" -- npm test -- --watch=false --coverage
 
       - name: Upload frontend coverage report
         uses: actions/upload-artifact@v4
@@ -109,14 +103,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Datadog CI Visibility
-        uses: Datadog/ci-visibility-action@v2
-        env:
-          DD_API_KEY: ${{ env.DD_API_KEY }}
-          DD_SITE: ${{ env.DD_SITE }}
-          DD_SERVICE: ${{ env.DD_SERVICE }}
-          DD_ENV: ${{ env.DD_ENV }}
-
       # -------- FRONTEND BUILD --------
       - name: Setup Node.js (frontend) + cache
         uses: actions/setup-node@v4
@@ -125,15 +111,15 @@ jobs:
           cache: npm
           cache-dependency-path: oneHavenProject/frontend/package-lock.json
 
-      - name: Install frontend dependencies
+      - name: Install frontend dependencies (Datadog traced)
         working-directory: ./oneHavenProject/frontend
-        run: npm ci
+        run: npx -y @datadog/datadog-ci@latest trace --name "frontend:npm ci (build job)" -- npm ci
 
-      - name: Build frontend
+      - name: Build frontend (Datadog traced)
         working-directory: ./oneHavenProject/frontend
         env:
           CI: false
-        run: npm run build
+        run: npx -y @datadog/datadog-ci@latest trace --name "frontend:build" -- npm run build
 
       - name: Upload frontend build artifact
         uses: actions/upload-artifact@v4
@@ -142,10 +128,11 @@ jobs:
           path: oneHavenProject/frontend/build
 
       # -------- BACKEND "BUILD" ARTEFAKT --------
-      - name: Create backend build artifact (package)
-        run: |
+      - name: Create backend build artifact (package) (Datadog traced)
+        run: npx -y @datadog/datadog-ci@latest trace --name "backend:package artifact" -- bash -lc '
           mkdir -p artifacts
           tar -czf artifacts/backend-build.tar.gz -C oneHavenProject/backend .
+        '
 
       - name: Upload backend build artifact
         uses: actions/upload-artifact@v4
@@ -164,14 +151,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Datadog CI Visibility
-        uses: Datadog/ci-visibility-action@v2
-        env:
-          DD_API_KEY: ${{ env.DD_API_KEY }}
-          DD_SITE: ${{ env.DD_SITE }}
-          DD_SERVICE: ${{ env.DD_SERVICE }}
-          DD_ENV: ${{ env.DD_ENV }}
-
       - name: Install jq (needed for SonarCloud API parsing)
         run: sudo apt-get update && sudo apt-get install -y jq
 
@@ -187,16 +166,24 @@ jobs:
           name: frontend-coverage
           path: oneHavenProject/frontend/coverage
 
+      - name: SonarCloud scan (Datadog traced)
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        run: npx -y @datadog/datadog-ci@latest trace --name "sonarcloud:scan" -- bash -lc '
+          # sonar action je "uses", zato jo poganjamo ločeno:
+          echo "Sonar scan runs via GitHub Action step below"
+        '
+
       - name: SonarCloud scan
         uses: SonarSource/sonarcloud-github-action@v3
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
-      - name: Wait for SonarCloud analysis to finish (API)
+      - name: Wait for SonarCloud analysis to finish (API) (Datadog traced)
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: |
-          CE_TASK_ID=$(cat .scannerwork/report-task.txt | sed -n 's/ceTaskId=//p')
+        run: npx -y @datadog/datadog-ci@latest trace --name "sonarcloud:wait" -- bash -lc '
+          CE_TASK_ID=$(cat .scannerwork/report-task.txt | sed -n "s/ceTaskId=//p")
           if [ -z "$CE_TASK_ID" ]; then
             echo "ceTaskId ni najden v .scannerwork/report-task.txt"
             exit 1
@@ -208,7 +195,7 @@ jobs:
           for i in {1..30}; do
             STATUS=$(curl -s -u "${SONAR_TOKEN}:" \
               "https://sonarcloud.io/api/ce/task?id=${CE_TASK_ID}" \
-              | jq -r '.task.status')
+              | jq -r ".task.status")
 
             echo "➡️  status: $STATUS (poskus $i/30)"
 
@@ -230,14 +217,15 @@ jobs:
             echo "SonarCloud analiza ni končala v predvidenem času."
             exit 1
           fi
+        '
 
-      - name: Quality Gate check (API) - fail if not OK
+      - name: Quality Gate check (API) - fail if not OK (Datadog traced)
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: |
+        run: npx -y @datadog/datadog-ci@latest trace --name "sonarcloud:quality gate" -- bash -lc '
           QG_STATUS=$(curl -s -u "${SONAR_TOKEN}:" \
             "https://sonarcloud.io/api/qualitygates/project_status?projectKey=strasekeva_OneHaven" \
-            | jq -r '.projectStatus.status')
+            | jq -r ".projectStatus.status")
 
           echo "Quality Gate status: $QG_STATUS"
 
@@ -247,6 +235,7 @@ jobs:
           fi
 
           echo "Quality Gate prestan."
+        '
 
   docker-dev:
     name: Docker build & push (dev)
@@ -259,14 +248,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Datadog CI Visibility
-        uses: Datadog/ci-visibility-action@v2
-        env:
-          DD_API_KEY: ${{ env.DD_API_KEY }}
-          DD_SITE: ${{ env.DD_SITE }}
-          DD_SERVICE: ${{ env.DD_SERVICE }}
-          DD_ENV: ${{ env.DD_ENV }}
-
       - name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
@@ -276,17 +257,17 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      - name: Build and push backend Docker image (dev)
-        uses: docker/build-push-action@v6
-        with:
-          context: oneHavenProject/backend
-          file: oneHavenProject/backend/Dockerfile
-          push: true
-          tags: |
-            ${{ secrets.DOCKER_USERNAME }}/onehaven-backend:dev
-            ${{ secrets.DOCKER_USERNAME }}/onehaven-backend:dev-${{ github.sha }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+      - name: Build and push backend Docker image (dev) (Datadog traced)
+        run: npx -y @datadog/datadog-ci@latest trace --name "docker:build+push dev" -- bash -lc '
+          docker buildx build \
+            --file oneHavenProject/backend/Dockerfile \
+            --tag "${{ secrets.DOCKER_USERNAME }}/onehaven-backend:dev" \
+            --tag "${{ secrets.DOCKER_USERNAME }}/onehaven-backend:dev-${{ github.sha }}" \
+            --push \
+            --cache-from type=gha \
+            --cache-to type=gha,mode=max \
+            oneHavenProject/backend
+        '
 
   docker-prod:
     name: Docker build & push (prod)
@@ -299,14 +280,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Datadog CI Visibility
-        uses: Datadog/ci-visibility-action@v2
-        env:
-          DD_API_KEY: ${{ env.DD_API_KEY }}
-          DD_SITE: ${{ env.DD_SITE }}
-          DD_SERVICE: ${{ env.DD_SERVICE }}
-          DD_ENV: ${{ env.DD_ENV }}
-
       - name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
@@ -316,17 +289,17 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      - name: Build and push backend Docker image (prod)
-        uses: docker/build-push-action@v6
-        with:
-          context: oneHavenProject/backend
-          file: oneHavenProject/backend/Dockerfile
-          push: true
-          tags: |
-            ${{ secrets.DOCKER_USERNAME }}/onehaven-backend:prod
-            ${{ secrets.DOCKER_USERNAME }}/onehaven-backend:prod-${{ github.sha }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+      - name: Build and push backend Docker image (prod) (Datadog traced)
+        run: npx -y @datadog/datadog-ci@latest trace --name "docker:build+push prod" -- bash -lc '
+          docker buildx build \
+            --file oneHavenProject/backend/Dockerfile \
+            --tag "${{ secrets.DOCKER_USERNAME }}/onehaven-backend:prod" \
+            --tag "${{ secrets.DOCKER_USERNAME }}/onehaven-backend:prod-${{ github.sha }}" \
+            --push \
+            --cache-from type=gha \
+            --cache-to type=gha,mode=max \
+            oneHavenProject/backend
+        '
 
   deploy-backend-render:
     name: Deploy backend to Render (prod)
@@ -336,19 +309,21 @@ jobs:
     environment: Production
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - name: Trigger Render deploy hook (Datadog traced)
+        run: npx -y @datadog/datadog-ci@latest trace --name "deploy:render backend" -- bash -lc '
+          curl -fsSL -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"
+        '
 
-      - name: Datadog CI Visibility
-        uses: Datadog/ci-visibility-action@v2
-        env:
-          DD_API_KEY: ${{ env.DD_API_KEY }}
-          DD_SITE: ${{ env.DD_SITE }}
-          DD_SERVICE: ${{ env.DD_SERVICE }}
-          DD_ENV: ${{ env.DD_ENV }}
-
-      - name: Trigger Render deploy hook
-        run: curl -fsSL -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"
+      # DORA deployment event (za metrike deployev)
+      - name: Datadog DORA deployment event (backend prod)
+        run: |
+          STARTED_AT=$(date +%s)
+          npx -y @datadog/datadog-ci@latest dora deployment \
+            --service onehaven-backend \
+            --env prod \
+            --started-at $STARTED_AT \
+            --custom-tags repo:${{ github.repository }} \
+            --custom-tags branch:${{ github.ref_name }}
 
   deploy-frontend:
     name: Deploy frontend to Firebase Hosting
@@ -360,14 +335,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Datadog CI Visibility
-        uses: Datadog/ci-visibility-action@v2
-        env:
-          DD_API_KEY: ${{ env.DD_API_KEY }}
-          DD_SITE: ${{ env.DD_SITE }}
-          DD_SERVICE: ${{ env.DD_SERVICE }}
-          DD_ENV: ${{ env.DD_ENV }}
-
       - name: Setup Node.js (frontend) + cache
         uses: actions/setup-node@v4
         with:
@@ -375,24 +342,35 @@ jobs:
           cache: npm
           cache-dependency-path: oneHavenProject/frontend/package-lock.json
 
-      - name: Install frontend dependencies
+      - name: Install frontend dependencies (Datadog traced)
         working-directory: ./oneHavenProject/frontend
-        run: npm ci
+        run: npx -y @datadog/datadog-ci@latest trace --name "frontend:npm ci (deploy job)" -- npm ci
 
-      - name: Build frontend
+      - name: Build frontend (Datadog traced)
         working-directory: ./oneHavenProject/frontend
         env:
           CI: false
-        run: npm run build
+        run: npx -y @datadog/datadog-ci@latest trace --name "frontend:build (deploy job)" -- npm run build
 
       - name: Install Firebase CLI
         run: npm i -g firebase-tools
 
-      - name: Deploy to Firebase Hosting
+      - name: Deploy to Firebase Hosting (Datadog traced)
         working-directory: ./oneHavenProject/frontend
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        run: firebase deploy --only hosting
+        run: npx -y @datadog/datadog-ci@latest trace --name "deploy:firebase frontend" -- firebase deploy --only hosting
+
+      # DORA deployment event (dev)
+      - name: Datadog DORA deployment event (frontend dev)
+        run: |
+          STARTED_AT=$(date +%s)
+          npx -y @datadog/datadog-ci@latest dora deployment \
+            --service onehaven-frontend \
+            --env dev \
+            --started-at $STARTED_AT \
+            --custom-tags repo:${{ github.repository }} \
+            --custom-tags branch:${{ github.ref_name }}
 
   deploy-pages:
     name: Deploy project page to GitHub Pages
@@ -410,14 +388,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
-      - name: Datadog CI Visibility
-        uses: Datadog/ci-visibility-action@v2
-        env:
-          DD_API_KEY: ${{ env.DD_API_KEY }}
-          DD_SITE: ${{ env.DD_SITE }}
-          DD_SERVICE: ${{ env.DD_SERVICE }}
-          DD_ENV: ${{ env.DD_ENV }}
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
