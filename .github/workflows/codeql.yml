@@ -2,15 +2,15 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [ "main", "production" ]
+    branches: ["main", "production"]
   pull_request:
-    branches: [ "main", "production" ]
+    branches: ["main", "production"]
   schedule:
-    - cron: '0 3 * * 0'
+    - cron: "0 3 * * 0"
 
 jobs:
   analyze:
-    name: Analyze
+    name: Analyze (CodeQL)
     runs-on: ubuntu-latest
 
     permissions:
@@ -21,31 +21,40 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ 'javascript-typescript' ]
+        language: ["javascript-typescript"]
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
         with:
           languages: ${{ matrix.language }}
+          # Povej CodeQL, kje naj išče kodo (monorepo)
+          config: |
+            paths:
+              - oneHavenProject/frontend
+              - oneHavenProject/backend
 
-      # ---- FRONTEND BUILD ----
+      # Namesti odvisnosti (večinoma dovolj za boljše rezultate)
       - name: Install frontend dependencies
         working-directory: oneHavenProject/frontend
         run: npm ci
 
-      - name: Build frontend
-        working-directory: oneHavenProject/frontend
-        run: npm run build || true
-
-      # ---- BACKEND BUILD ----
       - name: Install backend dependencies
         working-directory: oneHavenProject/backend
         run: npm ci
 
-      # CodeQL analiza
+      # Autobuild (CodeQL sam poskusi ugotoviti build korake)
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v3
+
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
